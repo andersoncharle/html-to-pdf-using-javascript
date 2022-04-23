@@ -7,7 +7,8 @@ const btn= document.querySelector("button");
 btn.addEventListener('click',elementToPrint);
 
 const elementToPrint = ()=>{
-html2pdf().from(element).save();
-alert("alert");
+    alert("alert");
+    html2pdf().from(element).save();
+
 document.querySelector("body").style.display="none";
 }
