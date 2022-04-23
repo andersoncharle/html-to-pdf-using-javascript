@@ -1,3 +1,8 @@
 "use strict";
 
-// const btn= document.addEventListener()
+const btn= document.querySelector(".btn");
+btn.addEventListener('click',elementToPrint());
+
+const elementToPrint = ()=>{
+
+}
