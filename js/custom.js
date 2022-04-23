@@ -4,11 +4,10 @@
 const element = document.querySelector(".print");
 
 const btn= document.querySelector("button");
-btn.addEventListener('click',elementToPrint);
+ btn.addEventListener('click',elementToPrint);
 
-const elementToPrint = ()=>{
-    alert("alert");
+function elementToPrint(){
     html2pdf().from(element).save();
 
-document.querySelector("body").style.display="none";
+
 }
