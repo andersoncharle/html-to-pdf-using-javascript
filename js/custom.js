@@ -1,6 +1,5 @@
 "use strict";
-// alert("andersoi");
-// document.querySelector("body").style.display="none";
+
 const element = document.querySelector(".print");
 
 const btn= document.querySelector("button");
